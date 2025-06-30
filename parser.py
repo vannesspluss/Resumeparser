@@ -4,7 +4,9 @@ from openai import OpenAI
 api_key = None
 CONFIG_PATH = r"config.yaml"
 
-api_key = os.getenv("OPENAI_API_KEY")
+# api_key = os.getenv("OPENAI_API_KEY")
+# Setup API Key
+api_key = os.environ["OPENAI_API_KEY"]
 
 def ats_extractor(resume_data):
 
