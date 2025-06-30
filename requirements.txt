@@ -1,4 +1,5 @@
-flask
+flask==3.0.2
 flask-cors
-pypdf
-openai
+pypdf==4.1.0
+openai==1.16.2
+python-3.11.8
